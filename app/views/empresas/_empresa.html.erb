@@ -1,0 +1,18 @@
+
+ <li id= '<%= empresa.id  %>' >
+            <ul>
+              <li>
+                <%= empresa.title %>
+              </li>
+              <li>
+                <%= link_to 'Destroy', empresa, method: :delete, remote: true%>
+              </li>
+               <li>
+                <%= link_to 'Edit', edit_empresa_path(empresa), data: {remote: true} %>
+              </li>
+            </ul> 
+            
+            
+            
+
+</li>
